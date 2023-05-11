@@ -1,0 +1,4 @@
+exchange,URI for API,BTCUSD,BTCEUR,ETHUSD,USDTRUB,JSON for parsing
+kraken,https://api.kraken.com/0/public/Ticker?pair={ticker},XBTUSD,XBTEUR,ETHUSD,NONE,donno :)
+binance,https://api.binance.com/api/v3/ticker/price?symbol={ticker},NONE,BTCEUR,NONE,USDTRUB,price
+btcturk,https://api.btcturk.com/api/v2/ticker?pairSymbol={ticker},NONE,NONE,NONE,NONE,data last
