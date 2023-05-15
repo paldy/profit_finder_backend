@@ -10,7 +10,7 @@ if __name__ == '__main__':
 
 
 
-# http://185.209.29.18:8000
+# http://94.103.94.219:8000
 
 # cd /home/profit_finder/api/ProfitFinder/server/fast_api/
 # uvicorn main:app --reload --host 0.0.0.0 

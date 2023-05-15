@@ -5,7 +5,7 @@ Back End for ProfitFinder project (FastAPI)
 
 ## API:
 
-[http://<IP>:8000]
+[http://94.103.94.219:8000]
 
 ### /docs
 
@@ -37,7 +37,7 @@ response:
 For testing:
 ```[!javascript]
 getResource = async (path, body) => {
-    const res = await fetch('http://185.209.29.18:8000',
+    const res = await fetch('http://94.103.94.219:8000',
                 body ? {
                     method: 'POST',
                     body: JSON.stringify(body),
@@ -95,7 +95,7 @@ test();
 For testing:
 ```[!javascript]
 getResource = async (path, body) => {
-    const res = await fetch('http://185.209.29.18:8000',
+    const res = await fetch('http://94.103.94.219:8000',
                 body ? {
                     method: 'POST',
                     body: JSON.stringify(body),

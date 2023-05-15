@@ -2,8 +2,8 @@ from fastapi import FastAPI, Query
 from pydantic import BaseModel
 from typing import Literal, List, Union
 
-# http://185.209.29.18:8000/docs
-# http://185.209.29.18:8000
+# http://94.103.94.219:8000/docs
+# http://94.103.94.219:8000
 
 # Import my modules for building requests to every trade place
 import request_binance_p2p
