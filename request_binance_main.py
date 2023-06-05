@@ -12,7 +12,7 @@ def bnb_main_request(tail):
     symbol = create_data(tail)
     r = requests.get('https://api.binance.com/api/v3/ticker/price?symbol=' + symbol)
     # with open(os.path.dirname(__file__) + 'sbr.xml', 'w') as j:
-    #     print(r.text, file=j)  # записываем строку в файл
+    #     print(r.text, file=j)  # write down the string to the file
 
     return r.json()
 
